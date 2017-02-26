@@ -7,7 +7,7 @@ body {
 }
 
 .max-length {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 fieldset {
@@ -24,6 +24,8 @@ input, select, textarea {
 
 @media only screen and (min-width: 60em) {
 
-
+  .grid:nth-child(3), .grid:first-child {
+    padding-right: 1rem;
+  }
 
 }
